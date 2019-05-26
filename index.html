@@ -5,100 +5,96 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>My First Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Chelvy</title>
 
   <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-
   <!-- NavBar (copied and pasted from WC3) -->
   <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <!-- Main Body goes in Container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-      <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            Awesome Stories
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-      </div>
-      <div class="col-lg-9">
-        <h2>The Greatest Website Ever Made</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-      </div>
-      <div class="col-lg-9">
-        <h2>The Greatest Website Ever Made</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            <div class="text-center">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
+<div class="Main-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <div class="container"> -->
+      <!-- <div class="row"> -->
+          <!-- <div class="col-lg-8"> -->
+            <a class="navbar-brand" href="#">
+              <h1>Chelvy</h1>
+            </a>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4"> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
             </div>
-          </div>
-        </div>
+          <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </nav>
+</div>
+
+  <!-- Main Content goes in Container -->
+<div class="Main-Content">
+  <div class="Main-Section-Content">
+  <div class="container">
+    <h2>About Me</h2>
+    <hr>
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="img img-thumbnail" src="assets/images/image5.jpg" style="width: 200px; height: 200px">
+      </div>
+      <div class="col-lg-9">
+        <p>
+            Hi, my name is Chelvy Moe-Mackosso. I am a Business System Analyst and Quality Assurance Engineer from Delaware who loves to create beautifully organized applications. 
+            When not up designing or testing, I like enjoying my time with friends and family and participating in outdoors activities like bungee jumping, sky diving, karting, zip lining, water diving, escape room, etc... 
+            I love creating products that are usefull, easy to navigate with a friendly user interface. 
+            At Business level: I understand, gather requirements and create business process using textual modelling and process flow diagrams using visual modelling.
+            At Software level: I create use cases/ wireframes using functional requirements modelling.
+            At Information level: I create entity relationship diagrams (ERD) using data modelling techniques.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestiae aut error maiores commodi dolores sed doloribus impedit autem repellendus quibusdam hic quod ex iure minus corrupti at, atque porro?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic veniam, totam rerum qui nobis reprehenderit, dolores possimus consequuntur illo eveniet nihil velit aperiam. Provident voluptatibus, molestiae aliquam tempora fugiat nulla.
+          </p>
       </div>
     </div>
   </div>
+  </div>
+</div>
+
+  <!-- Footer goes in Container -->
+<div class="Footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+            <h3>Copyright ©</h3>
+          </div>
+      </div>
+  </div>
+</div>
 </body>
 
 </html>
